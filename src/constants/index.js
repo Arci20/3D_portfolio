@@ -205,7 +205,7 @@ const projects = [
       },
     ],
     image: laboum,
-    src1: "https://laboumcoffee.netlify.app/?fbclid=IwAR3UvNRBF1WBHzcbegB0sKRjvL_PutlcYb1yyIiYn2FQ_llK2WHlvD6Vx4E",
+    src1: "https://glistening-pavlova-5d7ed9.netlify.app/",
   },
   {
     name: "NDKAK",
