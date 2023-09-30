@@ -30,6 +30,13 @@ import achieve from "./tech/achieve.png";
 import laboum from "./laboum.png";
 import ndkak from "./ndkak.png";
 import shoes from "./shoes.png";
+import Linux from "./Linux.png";
+import Incident from "./Incident.png";
+import Audit from "./Security_audit.png";
+import SQL from "./SQL.png";
+import Python from "./Python.png";
+import sql from "./sql1.png";
+import python from "./python1.png";
 
 export {
   Wordpress,
@@ -63,4 +70,11 @@ export {
   laboum,
   ndkak,
   shoes,
+  Linux,
+  Incident,
+  Audit,
+  SQL,
+  Python,
+  sql,
+  python,
 };

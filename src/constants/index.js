@@ -24,6 +24,13 @@ import {
   ndkak,
   shoes,
   threejs,
+  Linux,
+  Incident,
+  Audit,
+  SQL,
+  Python,
+  sql,
+  python,
 } from "../assets";
 
 export const navLinks = [
@@ -98,12 +105,12 @@ const technologies = [
     image: git,
   },
   {
-    name: "figma",
-    image: figma,
+    name: "SQL",
+    image: sql,
   },
   {
-    name: "Asana",
-    image: asana,
+    name: "Python",
+    image: python,
   },
 ];
 
@@ -240,6 +247,66 @@ const projects = [
     ],
     image: shoes,
     src1: "https://xplorear.vercel.app/?fbclid=IwAR1KqazWvRiFdv1nsAA9_ibGFV3uiqioTSaXaVDNiz92dRRUcT5_SiRfT-E",
+  },
+  {
+    name: "File permissions",
+    description: "Ensure users on this team, authorized with the appropriate permissions to helps keep the system secure.",
+    tags: [
+      {
+        name: "LINUX",
+        color: "green-text-gradient",
+      }
+    ],
+    image: Linux,
+    src1: "https://drive.google.com/file/d/1DjQNAsmrQbfR0F4xBP3pMZrG3F1N0IHW/view?usp=drive_link",
+  },
+  {
+    name: "Incident handler's journal",
+    description: "Investigating a small U.S. health care clinic specializing in delivering primary care services that has suffered from ransomware.",
+    tags: [
+      {
+        name: "NIST",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: Incident,
+    src1: "https://drive.google.com/file/d/1PenH_OCT0CKW9CRFt3MaQDMWEEC-nW_G/view?usp=drive_link",
+  },
+  {
+    name: "Security_audit",
+    description: "The manager of a small U.S. business  has decided that an internal IT audit needs to be conducted to ensure business continuity and compliance, as the business grows",
+    tags: [
+      {
+        name: "OWASP",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: Audit,
+    src1: "https://drive.google.com/drive/folders/17OwOlzSUVQHB-tcov6BG5Kxkuum4A3m7?usp=drive_link",
+  },
+  {
+    name: "SQL Filters",
+    description: "Investigate potential security issues that involve login attempts and employee machines. to help keep the system secure.",
+    tags: [
+      {
+        name: "SQL",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: SQL,
+    src1: "https://drive.google.com/file/d/16xNaavupsIDnhDvmV_GSC4dcxfcr9Ykn/view?usp=drive_link",
+  },
+  {
+    name: "Python",
+    description: "Conduct regular file update that identifies the employees who can access restricted content. The contents of the file are based on who is working with personal patient records. Employees are restricted access based on their IP address.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: Python,
+    src1: "https://drive.google.com/file/d/1qXSUS0fGTJpINKIoG_vM-nScMfMkiQVi/view?usp=drive_link",
   },
 ];
 
